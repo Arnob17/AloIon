@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+.feed {
+  width: auto;
+  height: auto;
+  display:flex;
+  margin-top:40px;
+}
+.feed .first {
+  height:auto;
+  min-height:400px;
+  width:25%;
+  border-right: 1px solid #a8a8a8;
+}
+.feed .second {
+  height:auto;
+  min-height:400px;
+  width:50%;
+  border-right: 1px solid #a8a8a8;
+}
+.feed .third {
+  height:auto;
+  min-height:400px;
+  width:25%;
+}
+
+.feed .first .H1 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.feed .first .H1 h1 {
+  font-size:25px;
+  margin:auto;
+  color:white;
+  background:black;
+  font-family: 'Tiro Bangla', serif;
+  padding: 0 15px;
+}
+.feed .first ul {
+  list-style-type: none;
+  padding: 0;
+}
+.feed .first ul li {
+  width:auto!important;
+  height:70px;
+  display:flex;
+  align-items:center;
+  padding: 0 15px;
+   border-bottom: 1px solid #d9d9d9;
+}
+.feed .first ul li:hover{
+  background:#fafafa;
+}
+.feed .first ul li img {
+  width:100px;
+}
+.feed .first ul li .img {
+  width:100px;
+}
+.feed .first ul li .text {
+  width:calc(100%-100px);
+  margin-left:6px;
+}
+.feed .first ul li span {
+  font-family: 'Tiro Bangla', serif;
+  font-weight: bolder;
+  cursor:pointer;
+}

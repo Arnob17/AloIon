@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+.navbar {
+  height: auto;
+  min-height:80px;
+  width: auto;
+  background: transparent;
+  display: flex;
+  align-items:center;
+  border-bottom: 1px solid #e6e6e6;
+  justify-content:space-around;
+}
+.navbar img {
+  width: 100px;
+}
+.navbar ul {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul li {
+  list-style-type:none;
+  margin: 0px 10px;
+  font-family: 'Tiro Bangla', serif;
+  cursor: pointer;
+  font-weight: none;
+  font-size: 16px;
+  transition: background, 0.5s;
+  font-weight:700;
+}
+.navbar ul li:hover {
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background: #000000;
+    border-radius: 5%;
+    /* text-decoration: underline; */
+}
