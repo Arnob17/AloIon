@@ -137,6 +137,11 @@ export default function Footer(props) {
               </ul>
             </div>
           </div>
+          <div className="credits">
+            <span>
+              Created with love by Ornob
+            </span>
+          </div>
         </div>
       </div>
     </>
