@@ -1,0 +1,66 @@
+.footer {
+  width:auto;
+  height:auto;
+  min-height:500px;
+  background:black;
+  display:flex;
+  justify-content:center;
+  bottom:0;
+}
+.footer .container {
+  width: 1320px;
+  height:auto;
+  min-height:500px;
+  background:black;
+  padding:0 20px;
+  max-width:1320px;
+}
+.footer .container .first {
+  width:auto;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  background:#000000;
+  padding-top:20px;
+}
+.footer .container .first img{
+  width: 100px;
+}
+.footer .container .first p {
+  color:white;
+  font-family: 'Tiro Bangla', serif;
+  font-weight: normal;
+}
+.footer .social_links {
+  width:auto;
+  height:auto;
+  padding: 0 15px;
+}
+.footer .social_links h1 {
+  color:white;
+  font-family: 'Tiro Bangla', serif;
+  font-weight: bolder;
+}
+.footer .social_links .links {
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.footer .social_links .links ul {
+  list-style-type:none;
+}
+.footer .social_links .links ul li {
+  height:30px;
+}
+.footer .social_links .links ul li a{
+  color:white;
+  font-family: 'Tiro Bangla', serif;
+  font-weight: normal;
+  text-decoration:none;
+  font-size:18px;
+}
+.footer .social_links .links ul li a:hover {
+  color:#b8b8b8;
+}
